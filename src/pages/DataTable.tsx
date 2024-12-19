@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import TableComponent from "../components/TableComponent";
 import OverlayPanel_for_SelectRow from "../components/OverlayPanel_Component_Row";
-import { get_apiData } from "../services/apiService";
+import { get_apiData } from "../services/ApiServices";
 import { OverlayPanel } from "primereact/overlaypanel";
 import { TableData } from "../types/TableTypes";
 
